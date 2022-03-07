@@ -14,8 +14,7 @@ export const achievementData = {
     {
       id: 2,
       title: "Java Certification",
-      details:
-        "Validate technical skills and cloud expertise to grow your career and business.",
+      details: "Java Programming Masterclass covering Java 11 & Java 17",
       date: "Aug 20, 2022",
       field: "Udemy",
       image: javaImg,
