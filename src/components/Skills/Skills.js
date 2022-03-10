@@ -22,22 +22,12 @@ function Skills() {
       </div>
       <div className="skillsContainer">
         <div className="skill--scroll">
-          <Marquee
-            gradient={false}
-            speed={80}
-            pauseOnHover={true}
-            pauseOnClick={true}
-            delay={0}
-            play={false}
-            direction="left"
-          >
-            {skillsData.map((skill, id) => (
-              <div className="skill--box" key={id} style={skillBoxStyle}>
-                <img src={skillsImage(skill)} alt={skill} />
-                <h3 style={{ color: theme.tertiary }}>{skill}</h3>
-              </div>
-            ))}
-          </Marquee>
+          {skillsData.map((skill, id) => (
+            <div className="skill--box" key={id} style={skillBoxStyle}>
+              <img src={skillsImage(skill)} alt={skill} />
+              <h3 style={{ color: theme.tertiary }}>{skill}</h3>
+            </div>
+          ))}
         </div>
       </div>
     </div>
