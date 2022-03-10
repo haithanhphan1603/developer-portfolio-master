@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Marquee from "react-fast-marquee";
+// import Marquee from "react-fast-marquee";
 
 import "./Skills.css";
 
