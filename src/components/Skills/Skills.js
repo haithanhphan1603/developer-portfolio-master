@@ -16,9 +16,9 @@ function Skills() {
   };
 
   return (
-    <div className="skills" style={{ backgroundColor: theme.secondary }}>
+    <div className="skills" style={{ backgroundColor: theme.primary }}>
       <div className="skillsHeader">
-        <h2 style={{ color: theme.primary }}>Skills</h2>
+        <h2 style={{ color: theme.secondary }}>Skills</h2>
       </div>
       <div className="skillsContainer">
         <div className="skill--scroll">
@@ -28,7 +28,7 @@ function Skills() {
             pauseOnHover={true}
             pauseOnClick={true}
             delay={0}
-            play={true}
+            play={false}
             direction="left"
           >
             {skillsData.map((skill, id) => (
